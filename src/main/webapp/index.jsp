@@ -8,13 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
     <style>
         :root {
-            --primary: #0a2540;
-            --accent: #00d4ff;
-            --light: #f6f9fc;
-            --dark: #1a1a1a;
-            --gray: #7a7a7a;
-            --success: #28a745;
-        }
+                    --primary: #111827;
+                    --secondary: #1f2937;
+                    --accent: #6366f1;
+                    --accent-light: #8b5cf6;
+                    --light: #f8fafc;
+                    --dark: #0f172a;
+                    --success: #10b981;
+                    --border: #e5e7eb;
+                    }
 
         * {
             margin: 0;
