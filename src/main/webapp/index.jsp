@@ -44,13 +44,16 @@
         }
 
         /* Header Styles */
-        header {
-            background-color: white;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            position: sticky;
-            top: 0;
-            z-index: 100;
-        }
+            header {
+                background: rgba(255,255,255,0.85);
+                backdrop-filter: blur(15px);
+                -webkit-backdrop-filter: blur(15px);
+                position: sticky;
+                top: 0;
+                z-index: 100;
+                border-bottom: 1px solid rgba(255,255,255,0.2);
+            }
+
 
         .header-container {
             display: flex;
